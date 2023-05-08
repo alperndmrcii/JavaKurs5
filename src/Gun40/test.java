@@ -15,13 +15,7 @@ public class test {
 
         StringBuilder initials = new StringBuilder();
         for (int i = 0; i < nameCount; i++) {
-            initials.append(names[i].charAt(0)+".");
+            initials.append(names[i].charAt(0) + ".");
         }
-
-
-        System.out.println("Tam adın baş harfleri: " + initials);
-        System.out.println(nameCount);
-
-            }
-        }
-
+    }
+}
